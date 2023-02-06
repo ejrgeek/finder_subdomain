@@ -1,6 +1,4 @@
 # Finder SubDomain
-require 'net/http'
-require 'uri'
 require 'resolv'
 
 banner = <<BANNER
@@ -20,7 +18,7 @@ BANNER
 
 puts(banner)
 
-print("Digite o host > ")
+print("Digite o dominio > ")
 domain = gets.chomp
 
 
